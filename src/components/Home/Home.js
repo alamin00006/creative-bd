@@ -1,13 +1,14 @@
-import React from 'react';
-import Navbar from '../Navbar/Navbar';
-
+import React from "react";
+import Banner from "../Banner/Banner";
 
 const Home = () => {
-    return (
-        <div>
-            <Navbar/>
-        </div>
-    );
+  return (
+    <div className="mx-24">
+      <section>
+        <Banner />
+      </section>
+    </div>
+  );
 };
 
 export default Home;
