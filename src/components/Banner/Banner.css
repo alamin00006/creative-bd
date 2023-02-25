@@ -1,0 +1,14 @@
+.browse-info:hover {
+  background-color: white;
+  color: red;
+  transition: all 0.3s ease-out;
+}
+
+.browse-info:hover {
+  transform: translateX(-8px);
+  color: red;
+}
+.video-tag {
+  border: 12px solid red;
+  border-radius: 30px;
+}
